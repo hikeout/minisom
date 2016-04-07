@@ -57,6 +57,11 @@ The data can be quantized by assigning a code book (weights vector of the winnin
 
 In this example we have that `qnt[i]` is the quantized version of `data[i]`.
 
+#### Save the SOM
+
+You can save the SOM using som.save(save_file='save_location'). <br>
+Load the SOM using the constructor som = MiniSom(load_file='save_location')
+
 Examples
 ---------------------
 In examples/example_iris.py you can find an example that shows how to train MiniSom and visualize the result using the <a href="http://en.wikipedia.org/wiki/Iris_flower_data_set">Iris flower dataset</a>. Here is the result of the script:
